@@ -84,3 +84,92 @@
 }
 
 /* main section style */
+
+.development-section {
+    width: 1140px;
+    height: 1395px;
+    margin: 0 auto;
+    margin-top: 74px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+
+.development-section-content {
+    width: 946px;
+    height: 1235px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.development-top {
+    width: 852px;
+    height: 115px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.development-heading {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.development-description {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.card-container {
+    width: 946px;
+    height: 336px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.devlopment-card-1,
+.devlopment-card-2,
+.devlopment-card-3 {
+    width: 850px;
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-content {
+    width: 477px;
+    height: 220px;
+}
+
+.card-img-container {
+    width: 259.56px;
+    height: 217.01px;
+}
+
+.devlopment-card-heading {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.devlopment-card-description {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.devlopment-card-btn {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    opacity: 0.7;
+    padding: 12px 20px;
+}
