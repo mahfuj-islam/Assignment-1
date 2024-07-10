@@ -356,25 +356,127 @@
     align-items: center;
 }
 
-.next-target-card-content{
+.next-target-card-content {
     margin-left: 30px;
 }
 
-.next-target-card-heading{
+.next-target-card-heading {
     color: rgb(13, 19, 33);
     font-size: 24px;
     font-weight: 800;
-    
+
 }
 
-.next-target-card-description{
+.next-target-card-description {
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 400;
 }
 
-.next-target-card-link{
+.next-target-card-link {
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 700;
+}
+
+/* form section style */
+
+.form-section {
+    width: 1140px;
+    height: 314px;
+    border-radius: 16px;
+    margin: auto;
+    margin-top: 44px;
+    background-image: url("assets/handshake.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-container {
+    width: 1044px;
+    height: 186px;
+}
+
+.form-content {
+    width: 730px;
+    height: 104px;
+    margin: auto;
+    text-align: center;
+}
+
+.form-input-container {
+    width: 730px;
+    margin: auto;
+    margin-top: 10px;
+
+}
+
+.form-heading {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.form-description {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px;
+}
+
+.form-input {
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+    background-color: (255, 255, 255);
+    padding: 18px;
+    border: none;
+    width: 570px;
+}
+
+.form-btn {
+    border-radius: 8px;
+    border: none;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 17px 20px;
+    background-color: (255, 255, 255)
+}
+
+/* footer section style */
+
+.footer {
+    height: 100px;
+    width: 100%;
+    margin-top: 79px;
+    border-radius: 16px;
+    background-color: rgba(13, 19, 33, 0.03);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-content {
+    width: 1140px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-heading {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer-icon img{
+    margin-right: 20px;
 }
